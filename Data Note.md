@@ -13,3 +13,10 @@ No nulls in the LGA_name
 -113 point features
 -Many of these features have no surface tags, which means the roads cannot be separated, they are all seen as generic
 -Coverage looks good in built-up area, and surroundings
+
+## CRS and Projections
+-All sources arrived in ESPG 4326
+Study Area: Kachia LGA, extracted from Grid3 LGA
+-All layers clipped and then reprojected to ESPG:32632 (UTM 32N)
+- Area check: Kachia LGA 4570 Km2 matches the published figure
+working files in data/processed/, raw files untouched
